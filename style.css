@@ -81,11 +81,12 @@ body {
     flex items-center flex-col 
   }
   .wrapper-2{
-    @apply w-full
+    @apply w-full md:w-[736px] lg:w-[934px] xl:w-[1120px] flex items-center
+
     h-auto
   }
   .contain{
-@apply w-full sm:w-[401px] md:w-[736px] lg:w-[936px] xl:w-[1120px] flex items-center
+@apply w-full md:w-[736px] lg:w-[934px] xl:w-[1120px] flex items-center
     
   }
   .contain-2{
