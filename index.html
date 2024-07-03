@@ -14,22 +14,18 @@
   </head>
 
   <body>
-<div class="wrapper">
-    
+ <div class="wrapper">
+  <div class="wrapper relative overflow-hidden 
+  after:absolute after:inset-0 after:mx-auto after:size-[56rem] 
+  after:bg-gradient-to-tl after:to-red-600/40 after:from-indigo-600/40 
+  after:blur-[200px] z-10  active" id="home">
 
-
-
-
-<!-- ..................... -->
-      <section class="relative overflow-hidden 
-      after:absolute after:inset-0 after:mx-auto after:size-[56rem] 
-      after:bg-gradient-to-tl after:to-red-600/40 after:from-indigo-600/40 
-      after:blur-[200px] after:rounded-full after:-z-1 active" id="home">
-     
-      <!-- nav-start -->
-      <nav class="contain-2
-      bg-white lg:bg-hidden flex  justify-between items-center
-    h-[32px] lg:h-[52px]    py-6 px-3 ">
+  <div class="w-full items-center
+   lg:bg-hidden flex relative z-[2]  justify-around
+h-[32px] lg:h-[52px] xl:h-[76pxz] py-6 px-3 ">
+     <nav class="contain-2
+       lg:bg-hidden flex    justify-between items-center
+    h-[32px] lg:h-[52px] xl:h-[76pxz] py-6 px-3 ">
   <div class="md:mr-[32px] lg:mr-0">
   <img class="w-[121px] h-[20px]" src="public/logo/logo-dark.png" alt="">
   </div>
@@ -37,26 +33,27 @@
   <div class="flex gap-3 lg:gap-5 items-center ">
   <!-- ul-start -->
   <div class="ul hidden lg:block ">
-  <ul class= "flex w-full gap-5 xl:gap-7">
-    <li class="text-[12px] text-[#EF4444] font-[600] hover:cursor-pointer  ">Home</li>
-    <li class="text-[12px] text-[#0f172a] hover:text-[#EF4444]  font-[600] hover:cursor-pointer  ">Features</li>
-    <li class="text-[12px] text-[#0f172a] hover:text-[#EF4444] font-[600] hover:cursor-pointer  ">Application</li>
-    <li class="text-[12px] text-[#0f172a] hover:text-[#EF4444] font-[600] hover:cursor-pointer  ">FAQs</li>
-    <li class="text-[12px] text-[#0f172a] hover:text-[#EF4444] font-[600] hover:cursor-pointer  ">Download</li>
-    <li class="text-[12px] text-[#0f172a] hover:text-[#EF4444] font-[600] hover:cursor-pointer  ">Reviews</li>
-    <li class="text-[12px] text-[#0f172a] hover:text-[#EF4444] font-[600] hover:cursor-pointer  ">Contact us</li>
+  <ul class= "flex w-full gap-5 xl:gap-8">
+    <li class="text-[14px] text-[#EF4444] font-[600] hover:cursor-pointer  ">Home</li>
+    <li class="text-[14px] text-[#0f172a] hover:text-[#EF4444]  font-[600] hover:cursor-pointer  ">Features</li>
+    <li class="text-[14px] text-[#0f172a] hover:text-[#EF4444] font-[600] hover:cursor-pointer  ">Application</li>
+    <li class="text-[14px] text-[#0f172a] hover:text-[#EF4444] font-[600] hover:cursor-pointer  ">FAQs</li>
+    <li class="text-[14px] text-[#0f172a] hover:text-[#EF4444] font-[600] hover:cursor-pointer  ">Download</li>
+    <li class="text-[14px] text-[#0f172a] hover:text-[#EF4444] font-[600] hover:cursor-pointer  ">Reviews</li>
+    <li class="text-[14px] text-[#0f172a] hover:text-[#EF4444] font-[600] hover:cursor-pointer  ">Contact us</li>
   </ul>
   </div> 
   <!-- ul-end -->
   <div class="flex  justify-between items-center gap-3">
   
-  <div class="flex w-full justify-between items-center gap-1">
-  
-  <div class="w-[32px] h-[32px] bg-red-50 rounded-full flex items-center justify-around ">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-  class="feather feather-user size-4">
+  <div class="flex w-full justify-between items-center gap-1 relative z-20">
+
+  <div class="hover:cursor-pointer w-[32px] h-[32px] bg-[#f8dbdb] hover:bg-[#EF4444] rounded-full flex items-center justify-around relative z-20 ">
+  <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+  stroke="currentColor" stroke-width="2"  stroke-linecap="round" stroke-linejoin="round"
+  class="feather feather-user size-4 hover:stroke-white stroke-red-500">
   <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+  <!-- <img src="public/icons/person.png" class="w-[24px] h-[24px]" alt=""> -->
   </div>
   
   <div class="btn w-[79px] h-[32px] rounded-2xl bg-[#EF4444]  flex items-center ">
@@ -89,42 +86,146 @@
   <!-- btn-side-bar-end -->
   </div>
   </nav>
-     <!-- nav-end --> 
-
-  
-<!-- hero-start -->
-     <div class="contain pt-40 text-center flex flex-col items-center justify-around">
-<div class="w-full  text-center">
-  <h4 class="lg:leading-normal
-  leading-normal text-4xl 
-  lg:text-[54px] mb-5">Awesome Mobile App for Your</h4>
-  <span class="font-bold text-[36px] lg:text-[54px]">Social Media</span>
-</div>
-<div class=""> 
-   <p class="text-slate-500
-  dark:text-white/60 text-lg max-w-xl mx-auto">Gain valuable insights into user
-   behavior and drive data-informed decision-making with our revolutionary platform.</p>
   </div>
-  <div class="subcribe-form mt-6 mb-3">
-    <form class="relative max-w-lg mx-auto">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail size-4 absolute top-[17px] start-5 text-slate-400"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-        <input type="email" id="subcribe" name="email" class="form-input border-0 py-4 ps-12 pe-12 w-full h-[50px] outline-none text-black dark:text-white rounded-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 focus:border-0 focus:ring-0" placeholder="Your Email Address :">
-        <button type="submit" class="size-[46px] inline-flex items-center justify-center rounded-full align-middle absolute top-[2px] end-[3px] bg-red-500 border-red-500 text-white"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right size-5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></button>
-    </form><!--end form-->
-</div>
+<!-- nav-end -->
+<!-- hero-start -->
+<div class="contain pt-40 text-center flex flex-col items-center justify-around">
+  <div class="w-full  text-center">
+    <h4 class="lg:leading-normal
+    leading-normal text-4xl 
+    lg:text-[54px] mb-5">Awesome Mobile App for Your</h4>
+    <span class="font-bold text-[36px] lg:text-[54px]">Social Media</span>
+  </div>
+  <div class=""> 
+     <p class="text-slate-500
+    dark:text-white/60 text-lg max-w-xl mx-auto">Gain valuable insights into user
+     behavior and drive data-informed decision-making with our revolutionary platform.</p>
+    </div>
+    <div class=" mt-6 mb-3  w-[96%] md:w-[512px]">
+      <div class="relative max-w-lg mx-auto ">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="  z-[2]
+            size-4 absolute top-[17px] start-5 text-slate-400">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
 
+            </path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          <input type="email" id="subcribe" name="email" class="form-input border-0 py-4 ps-12 pe-12 w-full h-[50px]
+           outline-none text-black dark:text-white rounded-full bg-white relative z-[1] dark:bg-slate-900 shadow dark:shadow-gray-800 
+           focus:border-0 focus:ring-0" placeholder="Your Email Address :">
 
-</div>
-<!-- ..................... -->
-<div class="text-slate-500 font-medium text-center">
-  Looking for help?
-  <a href="" class="text-red-500">Get in touch with us</a>
-</div>
-<div class="w-full h-screen relative z-10"><img class="w-full h-auto" src="public/img/Appever - Tailwind CSS App Landing Template-logo_files/3-phone-half.png" alt=""></div>
-
-
-     </div>
-     <!-- hero-end -->
+          <button type="submit" class="absolute  size-[46px] inline-flex items-center justify-center 
+          rounded-full z-20 top-[2px] end-[3px] bg-red-500 border-red-500 text-white">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right size-5">
+          <line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></button>
+      </div>
+      <!--end form-->
+  </div>
   
+  
+  </div>
+  <!-- hero-end -->
+   <div class=" ">
+    <img src="public/img/Appever - Tailwind CSS App Landing Template-logo_files/3-phone-half.png" alt="" class="w-full h-fit relative z-[2]">
+  </div>
+</div>
+<!-- hero-end -->
+<!-- sec-1-start -->
+<div class="contain pt-[64px] md:pt-[96px] flex flex-col justify-around items-center">
+  <div class=" pb-6 text-center">
+    <h1 class="text-red-500  text-sm font-bold mb-3">Features</h1>
+    <h4 class="mb-6 md:text-3xl text-2xl md:leading-normal  font-bold">Discover Powerful Features</h4>
+    <p class="text-slate-400 max-w-xl mx-auto">Unleash the power of our platform with a multitude of powerful features, empowering you to achieve your goals.</p>
+</div>
+<!-- ....................................text---end -->
+<div class="grid lg:grid-cols-12 md:grid-cols-12 grid-cols-1 mt-6 gap-6 items-center">
+  <div class="lg:col-span-4 md:col-span-6 lg:order-1 order-2">
+      <div class="grid grid-cols-1 gap-6">
+          <div class="group flex duration-500 xl:p-3">
+              <div class="flex md:order-2 order-1 align-middle justify-center items-center size-16 mt-1 bg-red-500/5 dark:bg-red-500/10 group-hover:bg-red-500 group-hover:text-white text-red-500 rounded-2xl text-2xl shadow-sm dark:shadow-gray-800 duration-500">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-monitor size-5"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+              </div>
+              <div class="flex-1 md:order-1 order-2 md:text-end md:me-4 md:ms-0 ms-4">
+                  <h4 class="mb-0 text-lg font-semibold">Use On Any Device</h4>
+                  <p class="text-slate-400 mt-3">One disadvantage of Lorum Ipsum is that in Latin frequently than others</p>
+              </div>
+          </div>
+          <!--end feature-->
+          
+          <div class="group flex duration-500 xl:p-3">
+              <div class="flex md:order-2 order-1 align-middle justify-center items-center size-16 mt-1 bg-red-500/5 dark:bg-red-500/10 group-hover:bg-red-500 group-hover:text-white text-red-500 rounded-2xl text-2xl shadow-sm dark:shadow-gray-800 duration-500">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-feather size-5"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="15"></line></svg>
+              </div>
+              <div class="flex-1 md:order-1 order-2 md:text-end md:me-4 md:ms-0 ms-4">
+                  <h4 class="mb-0 text-lg font-semibold">Feather Icons</h4>
+                  <p class="text-slate-400 mt-3">One disadvantage of Lorum Ipsum is that in Latin frequently than others</p>
+              </div>
+          </div>
+          <!--end feature-->
+          
+          <div class="group flex duration-500 xl:p-3">
+              <div class="flex md:order-2 order-1 align-middle justify-center items-center size-16 mt-1 bg-red-500/5 dark:bg-red-500/10 group-hover:bg-red-500 group-hover:text-white text-red-500 rounded-2xl text-2xl shadow-sm dark:shadow-gray-800 duration-500">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye size-5"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+              </div>
+              <div class="flex-1 md:order-1 order-2 md:text-end md:me-4 md:ms-0 ms-4">
+                  <h4 class="mb-0 text-lg font-semibold">Retina Ready</h4>
+                  <p class="text-slate-400 mt-3">One disadvantage of Lorum Ipsum is that in Latin frequently than others</p>
+              </div>
+          </div>
+          <!--end feature-->
+      </div>
+  </div>
+
+  <div class="lg:col-span-4 md:col-span-12 lg:mx-4 lg:order-2 order-1 flex w-full justify-evenly">
+   <img src="public/img/Appever - Tailwind CSS App Landing Template-logo_files/1.png" alt="#########">
+  </div>
+
+  <div class="lg:col-span-4 md:col-span-6 order-3">
+      <div class="grid grid-cols-1 gap-6">
+          <div class="group flex duration-500 xl:p-3">
+              <div class="flex align-middle justify-center items-center size-16 mt-1 bg-red-500/5 dark:bg-red-500/10 group-hover:bg-red-500 group-hover:text-white text-red-500 rounded-2xl text-2xl shadow-sm dark:shadow-gray-800 duration-500">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user-check size-5"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><polyline points="17 11 19 13 23 9"></polyline></svg>
+              </div>
+              <div class="flex-1 ms-4">
+                  <h4 class="mb-0 text-lg font-semibold">W3c Valid Code</h4>
+                  <p class="text-slate-400 mt-3">One disadvantage of Lorum Ipsum is that in Latin frequently than others</p>
+              </div>
+          </div>
+          <!--end feature-->
+          
+          <div class="group flex duration-500 xl:p-3">
+              <div class="flex align-middle justify-center items-center size-16 mt-1 bg-red-500/5 dark:bg-red-500/10 group-hover:bg-red-500 group-hover:text-white text-red-500 rounded-2xl text-2xl shadow-sm dark:shadow-gray-800 duration-500">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-smartphone size-5"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+              </div>
+              <div class="flex-1 ms-4">
+                  <h4 class="mb-0 text-lg font-semibold">Fully Responsive</h4>
+                  <p class="text-slate-400 mt-3">One disadvantage of Lorum Ipsum is that in Latin frequently than others</p>
+              </div>
+          </div>
+          <!--end feature-->
+          
+          <div class="group flex duration-500 xl:p-3">
+              <div class="flex align-middle justify-center items-center size-16 mt-1 bg-red-500/5 dark:bg-red-500/10 group-hover:bg-red-500 group-hover:text-white text-red-500 rounded-2xl text-2xl shadow-sm dark:shadow-gray-800 duration-500">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart size-5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+              </div>
+              <div class="flex-1 ms-4">
+                  <h4 class="mb-0 text-lg font-semibold">Browser Compatibility</h4>
+                  <p class="text-slate-400 mt-3">One disadvantage of Lorum Ipsum is that in Latin frequently than others</p>
+              </div>
+          </div>
+          <!--end feature-->
+      </div>
+  </div>
+</div>
+<!-- ..............................icons-text-img-end -->
+</div>
+<!-- sec-1-end -->
+
+  <!-- contain-----------end -->
+   </div>
+
+ 
+                  <!-- wrapper-end -->
+                 </div>
   </body>
 </html>

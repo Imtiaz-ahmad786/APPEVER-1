@@ -84,13 +84,34 @@ body {
   @apply w-full md:w-[736px] lg:w-[934px] xl:w-[1120px] flex items-center;
 }
 .contain-2 {
-  @apply w-full bg-white md:w-[736px] lg:w-[934px] xl:w-[1120px] flex items-center;
+  @apply w-full  fixed
+   md:w-[736px] lg:w-[934px] xl:w-[1120px] flex items-center;
 }
+/* @media  (min-width:768px){
+  .contain-2 {
+ 
+  }
+} */
 @media  (min-width:1024px){
   .contain-2 {
-    background: none;
+        --content: var(--tw-content);
+      --tw-gradient-from: rgb(79 70 229 / 0.4) var(--tw-gradient-from-position);
+      --tw-gradient-to: rgb(79 70 229 / 0) var(--tw-gradient-to-position);
+      --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
   }
-}
+  }
+
+
+
+
+  /* <!-- <div class="w-[32px] h-[32px] rounded-full  items-center justify-around bg-[#EF4444]   relative hover:z-10 flex   hover:block">
+        <img class="w-[24px] h-[24px] " src="public/icons/person (1).png " alt="">
+  </div> -->
+  <!-- ......................... -->
+  <div class="w-[32px] h-[32px]  rounded-full flex items-center justify-around bg-[#f7cccc]  hover:bg-red-400 ">
+    <img class="w-[24px] h-[24px]" src="public/icons/person.png " alt="">
+</div> */
+ 
 
 .game {
   background-position: center;
